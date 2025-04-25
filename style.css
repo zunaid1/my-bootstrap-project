@@ -1,0 +1,53 @@
+
+
+/* ===== CSS Reset (Minimalist) ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styling */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove outline on buttons/inputs (customize focus style later) */
+button, input, textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Set base font and smooth rendering */
+
+/* ========================================================================= */
+/* In your CSS file */
+@import "~font-awesome/css/font-awesome.min.css";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header{
+background-image: url("./assets/banner.webp");
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+block-size: cover;
+}
+.banner-container{
+  height: 100vh;
+}
